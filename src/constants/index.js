@@ -16,13 +16,13 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  jpmc_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Machine Learning Research",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "System Design Planning",
     icon: creator,
   },
 ];
@@ -116,55 +116,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer - SWE",
+    company_name: "JP Morgan Chase",
+    icon: jpmc_logo,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Played a pivotal role in re-engineering the intricate trade technology platform including multiple payment procedures and SWIFT flows",
+      "Implemented Module Federation Micro-frontend’s in React and Spring Boot Micro-services for development of the application",
+      "Led the planning and implementation of system architectures and designs for different parts of application from scratch, thereby increasing efficiency and reducing downtime of the application by 27%",
+      "Contributed to core financial frameworks utilized across the Trade Finance Domain, improving developer efficiencyand reducing development time by 15%.",
+      "Designed proprietary data storage and cache management solutions, resulting in 12% faster data retrieval forreference and user data for approximately 120,000 parameters",
+      "Worked over multiple technical debts and implemented strategies to minimize future tech debt efforts resulting in9% faster sprint deliveries for 12 EPIC’s",
+      "Collaborated with Business Analysts and Operations to implement core trade logic for 4 trade processes within 6months, streamlining workflow",
+      "Nationally recognized (top 50) for exceptional performance and timely delivery within strict business constraints",
+      "Contributed to the adoption of agile methodologies, utilizing Jira and Confluence, paved the way for improvementof code readability and documentation, improving team productivity through iterative development cycles by 40%",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "NLP Researcher",
+    company_name: "BITS Pilani, Goa Campus",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a Karaka Framework to extract karakas from a sentence, under the guidance of Prof Ramprasad Joshi and Assistant Prof. Devika Verma which resulted in publishing research at an ACL Conference :RANLP - 2023",
+      "Karakas are a unique linguistic feature for improving performance of downstream Natrual Language Processing - NLP applications like question-answering by 12% for complex and low resource languages which resulted in publishing research at an ACL Conference",
+      "Developed dependency based words using Deep Learning to improve scores in downstream NLP applications",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Summer Research Intern",
+    company_name: "Vishwarkama Institute of Technology",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2020 - Sept 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of a concept Feedback ECG and PPG Monitoring Health Wrist Band to detect cardiovascular diseases, which resulted in a copyright registration in India",
+      "Developed concept using Arduino Bluno BLE MCU and MAX86150 sensor to perform data collection",
+      "Manipulated and refined data before analysis with HeartPy library in Python",
+      "Implemented a notification system using Twilio API and Google Cloud Platform for quick response in case of abnormal result",
     ],
   },
 ];
