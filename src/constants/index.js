@@ -3,6 +3,9 @@ import {
   backend,
   creator,
   web,
+  graphql,
+  java,
+  tensorflow,
   javascript,
   typescript,
   html,
@@ -23,6 +26,8 @@ import {
   tripguide,
   threejs,
   jpmc_logo,
+  bits_pilani,
+  vit_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -61,20 +66,28 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
   {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "React JS",
@@ -91,6 +104,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
   },
   {
     name: "MongoDB",
@@ -137,7 +154,7 @@ const experiences = [
   {
     title: "NLP Researcher",
     company_name: "BITS Pilani, Goa Campus",
-    icon: tesla,
+    icon: bits_pilani,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Jan 2023",
     points: [
@@ -149,7 +166,7 @@ const experiences = [
   {
     title: "Summer Research Intern",
     company_name: "Vishwarkama Institute of Technology",
-    icon: shopify,
+    icon: vit_logo,
     iconBg: "#383E56",
     date: "June 2020 - Sept 2020",
     points: [

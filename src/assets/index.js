@@ -20,12 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import graphql from "./tech/graphql.png";
+import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import jpmc_logo from "./company/jpmc_logo.jpeg";
+import bits_pilani from "./company/BITS_Pilani_logo.png";
+import vit_logo from "./company/VIT_Logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +45,9 @@ export {
   github,
   menu,
   close,
+  graphql,
+  java,
+  tensorflow,
   css,
   docker,
   figma,
@@ -57,6 +65,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  bits_pilani,
+  vit_logo,
   carrent,
   jobit,
   tripguide,
