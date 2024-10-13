@@ -1,0 +1,6 @@
+.custom-border-span {
+  border: 2px solid #cabdea;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}

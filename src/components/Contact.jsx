@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import "../styles.css";
 
 const Contact = () => {
   const formRef = useRef();
@@ -88,12 +89,12 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-2">
-              Email me: shivaniaiman07@gmail.com
+            <span className="text-white font-medium mb-2 custom-border-span">
+              Email : shivaniaiman07@gmail.com
             </span>
             <p className="mb-1"></p>
-            <span className="text-white font-medium mb-2">
-              My University Id:aashivan@uwaterloo.ca
+            <span className="text-white font-medium mb-2 custom-border-span">
+              University Email : aashivan@uwaterloo.ca
             </span>
             {/* <p>aashivan@uwaterloo.ca</p> */}
           </label>
@@ -115,7 +116,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
