@@ -181,26 +181,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Aiman has been a quick learner and a valuable asset to the team. He has worked on various complex frameworks and problems with me, and I recommend him for his persistent and determined approach towards solving problems, his attitude of developing in the RIGHT way rather than resorting to shortcuts or workarounds, and his good design thinking, which is ahead of his years of experience.",
+    name: "Anupama Roy",
+    designation: "Tech Lead",
+    company: "Google",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "He quickly grasped and developed a strong foundation in Trade Technology, where his contributions to designing efficient and reliable financial frameworks have been invaluable. He is an excellent team player, often taking the lead in planning and strategy meetings. Aiman not only applies his knowledge effectively but also takes the initiative to document his work thoroughly. He is proactive in sharing insights and consistently supports the team in various ways",
+    name: "Jubin Jayprakash",
+    designation: "Tech Lead",
+    company: "JP Morgan Chase",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Over nearly three years, I’ve seen Aiman grow as both a research-driven individual and a leader in his undergrad. He delivered the Karaka Framework, resulting in a 2023 ACL Conference publication. Leading a forum of 50 students, Aiman shared his research knowledge, conducting lectures and overseeing more than 5 project sessions, inspiring his peers.",
+    name: "Devika Verma",
+    designation: "Assistant Professor (PhD)",
+    company: "Pune University [ Vishwakarma Institute of Technology ]",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
