@@ -220,20 +220,6 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-
-            {/* LinkedIn logo in the mobile menu */}
-            <a
-              href="https://linkedin.com/in/aiman-shivani/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4"
-            >
-              <img
-                src={linkedinLogo}
-                alt="LinkedIn logo"
-                className="w-7 h-7 object-contain"
-              />
-            </a>
           </div>
         </div>
       </div>
